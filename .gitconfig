@@ -43,3 +43,5 @@
 [user]
 	name = Jordan Demeulenaere
 	email = j.demeulenaere1@gmail.be
+[push]
+	default = simple
