@@ -15,7 +15,7 @@ alias g="git"
 alias v="vim"
 
 # programs
-
+alias p='python'
 alias st='open -a "Sublime Text"'
 alias xcode="open -a '/Developer/Applications/Xcode.app'"
 alias safari="open -a safari"

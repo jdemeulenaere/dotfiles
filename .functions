@@ -16,6 +16,13 @@ function calc() {
         printf "\n"
 }
 
+# Compile and execute java class
+function j() {
+    javac $1.java
+    java $1
+    rm $1.class
+}
+
 # Create a new directory and enter it
 function md() {
 	mkdir -p "$@" && cd "$@"
