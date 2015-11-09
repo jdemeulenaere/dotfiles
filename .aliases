@@ -25,6 +25,9 @@ alias f='open -a Finder'
 alias brewuu='brew update && brew upgrade'
 alias psg='ps auxwww | grep'
 
+# Pretty print json
+alias pjson='python -m json.tool'
+
 # be nice
 alias please=sudo
 
