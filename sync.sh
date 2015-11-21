@@ -2,7 +2,7 @@
 cd "$(dirname "$0")"
 git pull
 function doIt() {
-	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "sync.sh" --exclude "README.md" -av . ~
+	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "sync.sh" --exclude "readme.md" --exclude "z/" --exclude "install-deps.sh" -av . ~
 	echo
 	echo "!!! Don't forget to change mail address in .gitconfig !!!"
 }

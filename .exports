@@ -1,3 +1,6 @@
+# Set Java Home
+export JAVA_HOME=$(/usr/libexec/java_home)
+
 # Make vim the default editor
 export EDITOR="vim"
 # Don’t clear the screen after quitting a manual page
