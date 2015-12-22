@@ -13,6 +13,8 @@ alias dv="cd ~/Development"
 alias tkt="cd ~/Taktik"
 alias g="git"
 alias v="vim"
+alias vup="vagrant up"
+alias vssh="vagrant ssh"
 
 # programs
 alias p='python'
