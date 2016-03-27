@@ -15,6 +15,7 @@ alias g="git"
 alias v="vim"
 alias vup="vagrant up"
 alias vssh="vagrant ssh"
+alias dockerinit='eval "$(docker-machine env default)"'
 
 # programs
 alias p='python'
