@@ -58,16 +58,6 @@ function gz() {
 	gzip -c "$1" | wc -c
 }
 
-# `ij` with no arguments opens the current directory in IntelliJ, otherwise
-# opens the given location
-function ij() {
-        if [ $# -eq 0 ]; then
-                open -a /Applications/IntelliJ\ IDEA\ 15.app/Contents/MacOS/idea .
-        else
-                open -a /Applications/IntelliJ\ IDEA\ 15.app/Contents/MacOS/idea "$@"
-        fi
-}
-
 # `s` with no arguments opens the current directory in Sublime Text, otherwise
 # opens the given location
 function s() {

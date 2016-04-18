@@ -13,9 +13,7 @@ alias dv="cd ~/Development"
 alias tkt="cd ~/Taktik"
 alias g="git"
 alias v="vim"
-alias vup="vagrant up"
-alias vssh="vagrant ssh"
-alias dockerinit='eval "$(docker-machine env default)"'
+alias di='eval "$(docker-machine env default)"' # init docker
 
 # programs
 alias p='python'
@@ -25,13 +23,16 @@ alias safari="open -a safari"
 alias firefox="open -a firefox"
 alias chrome="open -a google\ chrome"
 alias f='open -a Finder'
-alias brewuu='brew update && brew upgrade'
+alias bubc='brew upgrade && brew cleanup'
+alias bubo='brew update && brew outdated'
+alias bubu='bubo && bubc'
 alias psg='ps auxwww | grep'
 
 # Pretty print json
 alias pjson='python -m json.tool'
 
 # be nice
+alias _=sudo
 alias please=sudo
 
 # Detect which `ls` flavor is in use
@@ -42,10 +43,10 @@ else # OS X `ls`
 fi
 
 # List all files colorized in long format
-alias l="ls -l ${colorflag}"
+alias l="ls -lh ${colorflag}"
 
 # List all files colorized in long format, including dot files
-alias la="ls -la ${colorflag}"
+alias la="ls -lha ${colorflag}"
 
 # List only directories
 alias lsd="ls -lF ${colorflag} | grep --color=never '^d'"
