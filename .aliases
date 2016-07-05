@@ -27,6 +27,7 @@ alias bubc='brew upgrade && brew cleanup'
 alias bubo='brew update && brew outdated'
 alias bubu='bubo && bubc'
 alias psg='ps auxwww | grep'
+alias ubuntu='docker run --rm --name ubuntu -ti -v /tmp/ubuntu:/tmp ubuntu'
 
 # Pretty print json
 alias pjson='python -m json.tool'
