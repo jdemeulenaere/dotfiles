@@ -17,7 +17,7 @@ alias di='eval "$(docker-machine env default)"' # init docker
 # programs
 alias p='python'
 alias st='open -a "Sublime Text"'
-alias v="open -a '/Applications/Visual Studio Code.app'"
+alias vs="open -a '/Applications/Visual Studio Code.app'"
 alias xcode="open -a '/Developer/Applications/Xcode.app'"
 alias safari="open -a safari"
 alias firefox="open -a firefox"
