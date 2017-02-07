@@ -12,12 +12,12 @@ alias dt="cd ~/Desktop"
 alias dv="cd ~/Development"
 alias tkt="cd ~/Taktik"
 alias g="git"
-alias v="vim"
 alias di='eval "$(docker-machine env default)"' # init docker
 
 # programs
 alias p='python'
 alias st='open -a "Sublime Text"'
+alias v="open -a '/Applications/Visual Studio Code.app'"
 alias xcode="open -a '/Developer/Applications/Xcode.app'"
 alias safari="open -a safari"
 alias firefox="open -a firefox"
